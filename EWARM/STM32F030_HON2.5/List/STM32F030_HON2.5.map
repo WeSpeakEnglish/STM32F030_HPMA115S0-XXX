@@ -1,0 +1,414 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  31/Oct/2019  15:54:41
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Exe\STM32F030_HON2.5.out
+#    Map file     =  
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\List\STM32F030_HON2.5.map
+#    Command line =  
+#        -f C:\Users\H249897\AppData\Local\Temp\EW29A2.tmp
+#        (I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\gpio.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\HPMA115S0.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\main.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\startup_stm32f030x8.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_cortex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_dma.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_flash.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_flash_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_gpio.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_i2c.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_i2c_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_msp.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_pwr.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_pwr_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_rcc.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_rcc_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_tim.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_tim_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_uart.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_hal_uart_ex.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_it.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_dma.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_exti.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_gpio.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_rcc.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_tim.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\stm32f0xx_ll_utils.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\system_stm32f0xx.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\tim.o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj\usart.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Exe\STM32F030_HON2.5.out
+#        --map
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\List\STM32F030_HON2.5.map
+#        --config
+#        I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM/stm32f030x8_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'1fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xb4
+  .intvec            ro code   0x800'0000    0xb4  startup_stm32f030x8.o [1]
+                             - 0x800'00b4    0xb4
+
+"P1":                                      0x1d54
+  .text              ro code   0x800'00b4   0x838  stm32f0xx_hal_uart.o [1]
+  .text              ro code   0x800'08ec    0x9c  usart.o [1]
+  .text              ro code   0x800'0988     0xc  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'0994    0x58  stm32f0xx_hal_dma.o [1]
+  .text              ro code   0x800'09ec     0x2  stm32f0xx_hal_uart.o [1]
+  .text              ro code   0x800'09ee     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'09f0   0x6a4  stm32f0xx_hal_rcc.o [1]
+  .text              ro code   0x800'1094    0xae  I32DivModFast.o [3]
+  .text              ro code   0x800'1142     0x2  stm32f0xx_hal_uart.o [1]
+  .text              ro code   0x800'1144    0xf8  HPMA115S0.o [1]
+  .text              ro code   0x800'123c    0xf8  main.o [1]
+  .text              ro code   0x800'1334   0x23c  stm32f0xx_hal_gpio.o [1]
+  .text              ro code   0x800'1570   0x13a  stm32f0xx_hal_cortex.o [1]
+  .text              ro code   0x800'16aa    0x24  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'16ce     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'16d0    0x34  ABImemcpy.o [3]
+  .text              ro code   0x800'1704     0x2  IntDivZer.o [3]
+  .text              ro code   0x800'1706     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1708    0x20  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'1728    0x70  gpio.o [1]
+  .text              ro code   0x800'1798   0x144  tim.o [1]
+  .text              ro code   0x800'18dc   0x130  stm32f0xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'1a0c    0x58  stm32f0xx_hal_msp.o [1]
+  .text              ro code   0x800'1a64    0xb8  stm32f0xx_ll_tim.o [1]
+  .text              ro code   0x800'1b1c    0x80  system_stm32f0xx.o [1]
+  .rodata            const     0x800'1b9c    0x48  main.o [1]
+  .rodata            const     0x800'1be4    0x48  usart.o [1]
+  .text              ro code   0x800'1c2c    0x3c  stm32f0xx_it.o [1]
+  .text              ro code   0x800'1c68    0x10  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'1c78    0x3c  zero_init3.o [3]
+  .text              ro code   0x800'1cb4    0x30  copy_init3.o [3]
+  .text              ro code   0x800'1ce4    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'1d0c    0x24  - Linker created -
+  .text              ro code   0x800'1d30    0x1e  cmain.o [3]
+  .text              ro code   0x800'1d4e     0x4  low_level_init.o [2]
+  .text              ro code   0x800'1d52     0x8  exit.o [2]
+  .text              ro code   0x800'1d5a     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1d5c     0xa  cexit.o [3]
+  .text              ro code   0x800'1d66     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1d68    0x14  exit.o [4]
+  .rodata            const     0x800'1d7c    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const     0x800'1d8c    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const     0x800'1d9c    0x10  system_stm32f0xx.o [1]
+  .text              ro code   0x800'1dac    0x10  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dbc     0xc  cstartup_M.o [3]
+  Initializer bytes  const     0x800'1dc8     0xc  <for P2-1>
+  .rodata            const     0x800'1dd4     0x8  system_stm32f0xx.o [1]
+  .text              ro code   0x800'1ddc     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dde     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1de0     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1de2     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1de4     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1de6     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1de8     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dea     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dec     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dee     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1df0     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1df2     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1df4     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1df6     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1df8     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dfa     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dfc     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1dfe     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1e00     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1e02     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1e04     0x2  startup_stm32f030x8.o [1]
+  .text              ro code   0x800'1e06     0x2  startup_stm32f030x8.o [1]
+  .rodata            const     0x800'1e08     0x0  zero_init3.o [3]
+  .rodata            const     0x800'1e08     0x0  copy_init3.o [3]
+                             - 0x800'1e08  0x1d54
+
+"P2", part 1 of 3:                            0xc
+  P2-1                        0x2000'0000     0xb  <Init block>
+    .data            inited   0x2000'0000     0x4  HPMA115S0.o [1]
+    .data            inited   0x2000'0004     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x2000'0008     0x2  HPMA115S0.o [1]
+    .data            inited   0x2000'000a     0x1  HPMA115S0.o [1]
+                            - 0x2000'000b     0xb
+
+"P2", part 2 of 3:                           0xcc
+  .bss               zero     0x2000'000c    0x70  usart.o [1]
+  .bss               zero     0x2000'007c    0x28  HPMA115S0.o [1]
+  .bss               zero     0x2000'00a4    0x20  HPMA115S0.o [1]
+  .bss               zero     0x2000'00c4     0x8  HPMA115S0.o [1]
+  .bss               zero     0x2000'00cc     0x4  stm32f0xx_hal.o [1]
+  .bss               zero     0x2000'00d0     0x2  HPMA115S0.o [1]
+  .bss               zero     0x2000'00d2     0x2  HPMA115S0.o [1]
+  .bss               zero     0x2000'00d4     0x1  HPMA115S0.o [1]
+  .bss               zero     0x2000'00d5     0x1  HPMA115S0.o [1]
+  .bss               zero     0x2000'00d6     0x1  HPMA115S0.o [1]
+                            - 0x2000'00d7    0xcb
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'00d8   0x400  <Block>
+    CSTACK           uninit   0x2000'00d8   0x400  <Block tail>
+                            - 0x2000'04d8   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'1e08   0x800'ffff  0xe1f8
+  0x2000'04d8  0x2000'1fff  0x1b28
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xcb:
+          0x2000'000c  0xcb
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc (109% of destination):
+           0x800'1dc8   0xc
+    1 destination range, total size 0xb:
+          0x2000'0000   0xb
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj: [1]
+    HPMA115S0.o                 248        7       94
+    gpio.o                      112
+    main.o                      248       72
+    startup_stm32f030x8.o       250
+    stm32f0xx_hal.o              96                 4
+    stm32f0xx_hal_cortex.o      314
+    stm32f0xx_hal_dma.o          88
+    stm32f0xx_hal_gpio.o        572
+    stm32f0xx_hal_msp.o          88
+    stm32f0xx_hal_rcc.o       1 700       32
+    stm32f0xx_hal_rcc_ex.o      304
+    stm32f0xx_hal_uart.o      2 108
+    stm32f0xx_it.o               60
+    stm32f0xx_ll_tim.o          184
+    system_stm32f0xx.o          128       28        4
+    tim.o                       324
+    usart.o                     156       72      112
+    -------------------------------------------------
+    Total:                    6 980      211      214
+
+dl6M_tlf.a: [2]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [3]
+    ABImemcpy.o                  52
+    I32DivModFast.o             174
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      428
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        37    1 024
+-----------------------------------------------------
+    Grand Total:              7 440      248    1 238
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'1d0c          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1d30          --   Gb  - Linker created -
+?main                    0x800'1d31         Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'1d9c   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBPrescTable            0x800'1dd4    0x8  Data  Gb  system_stm32f0xx.o [1]
+CSTACK$$Base            0x2000'00d8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'04d8          --   Gb  - Linker created -
+HAL_DMA_Abort_IT         0x800'0995   0x58  Code  Gb  stm32f0xx_hal_dma.o [1]
+HAL_GPIO_Init            0x800'1335  0x1fc  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'1531   0x1a  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GetTick              0x800'0989    0xc  Code  Wk  stm32f0xx_hal.o [1]
+HAL_IncTick              0x800'1c69   0x10  Code  Wk  stm32f0xx_hal.o [1]
+HAL_Init                 0x800'1709   0x1a  Code  Gb  stm32f0xx_hal.o [1]
+HAL_InitTick             0x800'16ab   0x24  Code  Wk  stm32f0xx_hal.o [1]
+HAL_MspInit              0x800'1a0d   0x58  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'1651    0xe  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'163d   0x14  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'18dd  0x110  Code  Gb  stm32f0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'0e65  0x152  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq      0x800'1041    0x6  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'104d   0x18  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'0fc9   0x72  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'09f1  0x45c  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                         0x800'166b   0x1e  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config       0x800'165f    0xc  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler   0x800'16a1    0x8  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_UART_IRQHandler      0x800'02e1  0x148  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_Init            0x800'00b5   0x7e  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'0921   0x56  Code  Gb  usart.o [1]
+HAL_UART_Receive_IT      0x800'0225   0xb8  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                         0x800'11f5   0x18  Code  Gb  HPMA115S0.o [1]
+HAL_UART_Transmit        0x800'0139   0xec  Code  Gb  stm32f0xx_hal_uart.o [1]
+LL_APB1_GRP1_EnableClock
+                         0x800'1833   0x16  Code  Lc  tim.o [1]
+LL_TIM_ClearFlag_UPDATE
+                         0x800'1c2d    0x8  Code  Lc  stm32f0xx_it.o [1]
+LL_TIM_ClearFlag_UPDATE
+                         0x800'185d    0x8  Code  Lc  tim.o [1]
+LL_TIM_EnableARRPreload
+                         0x800'1853    0xa  Code  Lc  tim.o [1]
+LL_TIM_EnableCounter     0x800'1849    0xa  Code  Lc  tim.o [1]
+LL_TIM_EnableIT_UPDATE   0x800'1865    0xa  Code  Lc  tim.o [1]
+LL_TIM_GenerateEvent_UPDATE
+                         0x800'1a71    0xa  Code  Lc  stm32f0xx_ll_tim.o [1]
+LL_TIM_Init              0x800'1a7b   0x84  Code  Gb  stm32f0xx_ll_tim.o [1]
+LL_TIM_SetAutoReload     0x800'1a69    0x4  Code  Lc  stm32f0xx_ll_tim.o [1]
+LL_TIM_SetPrescaler      0x800'1a65    0x4  Code  Lc  stm32f0xx_ll_tim.o [1]
+LL_TIM_SetRepetitionCounter
+                         0x800'1a6d    0x4  Code  Lc  stm32f0xx_ll_tim.o [1]
+LengthMSG               0x2000'000a    0x1  Data  Gb  HPMA115S0.o [1]
+MSG_AUTO_START          0x2000'0000    0x4  Data  Gb  HPMA115S0.o [1]
+MX_GPIO_Init             0x800'1729   0x70  Code  Gb  gpio.o [1]
+MX_TIM6_Init             0x800'186f   0x3a  Code  Gb  tim.o [1]
+MX_USART1_UART_Init      0x800'08ed   0x34  Code  Gb  usart.o [1]
+MessageReceived         0x2000'00d4    0x1  Data  Gb  HPMA115S0.o [1]
+NVIC_EnableIRQ           0x800'1571    0xe  Code  Lc  stm32f0xx_hal_cortex.o [1]
+NVIC_EnableIRQ           0x800'1799    0xe  Code  Lc  tim.o [1]
+NVIC_SetPriority         0x800'157f   0x8c  Code  Lc  stm32f0xx_hal_cortex.o [1]
+NVIC_SetPriority         0x800'17a7   0x8c  Code  Lc  tim.o [1]
+PM10                    0x2000'00d2    0x2  Data  Gb  HPMA115S0.o [1]
+PM2_5                   0x2000'00d0    0x2  Data  Gb  HPMA115S0.o [1]
+ProceedMSG               0x800'1181   0x74  Code  Gb  HPMA115S0.o [1]
+ReadMeasureLongHPMA115   0x800'115f   0x22  Code  Gb  HPMA115S0.o [1]
+ReceivedACK             0x2000'0008    0x2  Data  Gb  HPMA115S0.o [1]
+ReceivedLongData        0x2000'00a4   0x20  Data  Gb  HPMA115S0.o [1]
+ReceivedShortData       0x2000'00c4    0x8  Data  Gb  HPMA115S0.o [1]
+Region$$Table$$Base      0x800'1d0c          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1d30          --   Gb  - Linker created -
+StartMeasureFlag        0x2000'00d5    0x1  Data  Gb  HPMA115S0.o [1]
+Start_TIM6               0x800'18a9   0x18  Code  Gb  tim.o [1]
+SysTick_Config           0x800'160b   0x32  Code  Lc  stm32f0xx_hal_cortex.o [1]
+SysTick_Handler          0x800'1c35    0xc  Code  Gb  stm32f0xx_it.o [1]
+SystemClock_Config       0x800'128d   0x8a  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'0004    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit               0x800'1b1d   0x52  Code  Gb  system_stm32f0xx.o [1]
+TIM6_IRQHandler          0x800'1c41   0x10  Code  Gb  stm32f0xx_it.o [1]
+TypeMSG                 0x2000'00d6    0x1  Data  Gb  HPMA115S0.o [1]
+UART_AdvFeatureConfig    0x800'05db   0xde  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_CheckIdleState      0x800'06c9   0x18  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_DMAAbortOnError     0x800'07a9   0x18  Code  Lc  stm32f0xx_hal_uart.o [1]
+UART_EndRxTransfer       0x800'0751   0x20  Code  Lc  stm32f0xx_hal_uart.o [1]
+UART_EndTransmit_IT      0x800'0835   0x20  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_Receive_IT          0x800'0855   0x90  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_SetConfig           0x800'042d  0x1ac  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_Transmit_IT         0x800'07c1   0x74  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                         0x800'06e1   0x68  Code  Gb  stm32f0xx_hal_uart.o [1]
+USART1_IRQHandler        0x800'1c51    0xa  Code  Gb  stm32f0xx_it.o [1]
+_Error_Handler           0x800'1331    0x4  Code  Gb  main.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'1fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__aeabi_idiv0            0x800'1705         Code  Gb  IntDivZer.o [3]
+__aeabi_memcpy4          0x800'16d1         Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy8          0x800'16d1         Code  Gb  ABImemcpy.o [3]
+__aeabi_uidiv            0x800'1095         Code  Gb  I32DivModFast.o [3]
+__aeabi_uidivmod         0x800'1095         Code  Gb  I32DivModFast.o [3]
+__cmain                  0x800'1d31         Code  Gb  cmain.o [3]
+__exit                   0x800'1d69   0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'1cb5   0x30  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'1ce5   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'1dbd         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'1c79   0x3c  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'1d4f    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f030x8.o [1]
+_call_main               0x800'1d3d         Code  Gb  cmain.o [3]
+_exit                    0x800'1d5d         Code  Gb  cexit.o [3]
+_main                    0x800'1d4b         Code  Gb  cmain.o [3]
+exit                     0x800'1d53    0x8  Code  Gb  exit.o [2]
+huart1                  0x2000'000c   0x70  Data  Gb  usart.o [1]
+main                     0x800'123d   0x50  Code  Gb  main.o [1]
+received_string         0x2000'007c   0x28  Data  Gb  HPMA115S0.o [1]
+usart1_puts              0x800'1145   0x1a  Code  Gb  HPMA115S0.o [1]
+uwTick                  0x2000'00cc    0x4  Data  Gb  stm32f0xx_hal.o [1]
+
+
+[1] = I:\PROJECTS\PM2.5_meters\STM32F030_HON2.5\STM32F030_HON2.5\EWARM\STM32F030_HON2.5\Obj
+[2] = dl6M_tlf.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+
+  7 440 bytes of readonly  code memory
+    248 bytes of readonly  data memory
+  1 238 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
